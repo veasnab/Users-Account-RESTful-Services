@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment 1 - Page 2</title>
+    <link rel="stylesheet" href="assign1_veasnab.css">
+</head>
+
+<body>
+    <!-- top menu -->
+    <ul class="top-menu">
+        <li><a href="#">My Account</a></li>
+        <li><a href="#">Wish List</a></li>
+        <li><a href="#">Shopping Cart</a></li>
+        <li><a href="#">Checkout</a></li>
+    </ul>
+    <h1>Art Store</h1>
+
+    <!-- mid menu -->
+    <ul class="mid-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Art Works</a></li>
+        <li><a href="#">Artists</a></li>
+    </ul>
+
+    <!--center-->
+    <div class="center">
+        <h2>Customer Registration</h2>
+        <!-- form -->
+        <form method="POST" action="http://faculty.washington.edu/ealmasri/assign1.php">
+            <!-- Table 1 -->
+            <h3>1. User Info</h3>
+            <hr>
+            <table>
+                <tr>
+                    <td><label for="first">First Name</label></td>
+                    <td><label for="last">Last Name</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="first" name="first" required></td>
+                    <td><input type="text" id="last" name="last" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="email">Email</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="pass1">Password</label></td>
+                    <td><label for="pass2">Password Repeat</label></td>
+                </tr>
+                <tr>
+                    <td><input type="password" id="pass1" name="pass1" minlength="4" required></td>
+                    <td><input type="password" id="pass2" name="pass2" minlength="4" required></td>
+                </tr>
+            </table>
+
+            <!-- Table 2 -->
+            <h3>2. Location</h3>
+            <hr>
+            <table class="location">
+                <tr>
+                    <td colspan="3"><label for="address">Address</label></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><input type="text" id="address" name="address" required></td>
+                </tr>
+                <tr>
+                    <td><label for="city">City</label></td>
+                    <td><label for="state">State</label></td>
+                    <td><label for="zip">Zip</label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id="city" name="city" pattern="[A-Za-z]+" title="Use on A-Z, a-z letters"
+                            required>
+                    </td>
+                    <td>
+                        <input type="text" id="state" name="state" pattern="[A-Za-z]+" title="Use on A-Z, a-z letters"
+                            required>
+                    </td>
+                    <td><input type="text" id="zip" name="zip" pattern="[0-9]+" minlength="5"
+                            title="Please Enter a least 5 Digits Zip">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone</label></td>
+                    <td colspan="2"><label for="country">Country</label></td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                            title="Must be in the following format: 123-456-7890" required>
+                    </td>
+                    <td colspan="2"><select id="country" name="country" required>
+                            <option value="">--Choose an option--</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Mexico">Mexico</option>
+                            <option value="United States">United States</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <!--table 2 radio-->
+                <tr>
+                    <td colspan="3"><label>Continent</label>
+                </tr>
+                <tr>
+                    <td colspan="3"><label class="norm"><input type="radio" name="continent" value="Africa"
+                                required>Africa</label></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><label class="norm"><input type="radio" name="continent" value="Antarctica"
+                                required>Antarctica</label></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><label class="norm"><input type="radio" name="continent" value="Asia"
+                                required>Asia</label></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><label class="norm"><input type="radio" name="continent" value="Australia"
+                                required>Australia</label></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><label class="norm"><input type="radio" name="continent" value="Europe"
+                                required>Europe</label></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><label class="norm"><input type="radio" name="continent" value="North America"
+                                required>North America</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3"><label class="norm"><input type="radio" name="continent" value="South America"
+                                required>South America</label>
+                    </td>
+                </tr>
+            </table>
+            <!--table 3 -->
+            <h3>3. Personal Details</h3>
+            <hr>
+            <table class="details">
+                <tr>
+                    <td>
+                        <label>Birth Day<br /><input type="date" name="birthday" required></label>
+                    </td>
+                    <td>
+                        <label>Favorite Color<br /><input type="color" name="favorite" /></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Interest In Art</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label class="norm">Minimal<input type="range" min="0" max="10" step="1" name="interest">Love
+                            it!</label>
+                    </td>
+                </tr>
+            </table>
+            <!--table 4 -->
+            <h3>4. All Done</h3>
+            <hr>
+            <table>
+                <tr>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="accept" value="on" required>
+                            I agree to the <a href="#">Terms on this Site</a>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit"><img src="button_ok.png" alt="submit" />Sign me up!</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <!-- bottom -->
+    <div class="bottom">
+        <p>All images are copyright to their owners. This is just a hypothetical site &copy; 2014 Copyright Art Store
+        </p>
+    </div>
+
+</body>
+
+</html>

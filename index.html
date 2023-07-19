@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--User-Account-Services demo-->
+<!--Veasna Bun-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link my personal stylesheet-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- link extenal stylesheet-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>User-Account-Services</title>
+</head>
+
+<body>
+    <!--alert#0-->
+    <div>
+        <div class="alert alert-danger" role="alert" id="alert-fail">
+            Fali: something went wrong...
+        </div>
+        <div class="alert alert-success" role="alert" id="alert-success">
+            Successfully creating account.
+        </div>
+    </div>
+    <div class="web-title_login-container_signup-model-container">
+        <div class="web-title_login-container">
+            <!--User-Account-Services demo-->
+            <div class="web-title">
+                <h1>Users Account Services </h1>
+                <br>
+                <h4><span>{demo by} : </span> Veasna Bun</h4>
+            </div>
+            <!--login container-->
+            <div class="login-container">
+                <br>
+                <form>
+                    <div><input type="text" class="input-group mb-3" name="login-username" id="login-username"
+                            placeholder="Username" required></div>
+                    <div><input type="password" class="input-group mb-3" name="login-password" id="login-password"
+                            placeholder="password" required></div>
+                    <div> <button class="btn btn-primary" name="login-button" type="button" id="login-button">Log
+                            In</button>
+                    </div>
+                    <hr>
+                </form>
+                <div>
+                    <!-- sign-up modal button -->
+                    <button type="button" class="btn btn-success" id="signup-model">Create new account</button>
+                </div>
+            </div>
+        </div>
+
+        <!--model-->
+        <!--signup-model-container-->
+        <div class="signup-model-container">
+            <div class="signup-model-content">
+                <span class="close">&times;</span>
+                <form>
+                    <h1>Sign Up</h1>
+                    <p>It's quick and easy.</p>
+                    <hr>
+                    <div><input type="email" class="input-group mb-3" name="signup-email" id="signup-email"
+                            placeholder="Email" required></div>
+                    <div><input type="text" class="input-group mb-3" name="signup-username" id="signup-username"
+                            placeholder="Username" required></div>
+                    <div><input type="password" class="input-group mb-3" name="signup-password" id="signup-password"
+                            placeholder="Password" required></div>
+                    <div>
+                        <a class="btn btn-success" href="#" type=button role="button" id="signup-button" required>Sign
+                            Up</a>
+                    </div>
+                    <!--alert#1-->
+                    <div>
+                        <div class="alert alert-danger" role="alert" id="alert-fail-1">
+                            Fali: something went wrong...
+                        </div>
+                        <div class="alert alert-success" role="alert" id="alert-success-1">
+                            Successfully creating account.
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="user-nav_user-profile-container">
+        <!--user-nav-->
+        <div class="user-nav">
+            <nav class="navbar navbar-dark bg-primary" id="user-nav-bar">
+                User-Account-Services
+            </nav>
+
+        </div>
+        <!--user-profile-container-->
+        <div class="user-profile-container">
+            <!--user-profile-card-container-->
+            <div class="user-profile-card-container">
+                <!--user-profile-card-->
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img class="card-img-top" src="html-img/default.jpg" alt="Card image cap" id="profile-image">
+                        <h5 class="card-title"><span id="profile-username">Username</span></h5>
+                        <div class="mb-3">
+                            <form id="upload-form" enctype="multipart/form-data">
+                                <label for="image-input" class="form-label">Upload an image.</label>
+                                <input class="form-control" type="file" id="image-input" required>
+                                <br>
+                                <button type="submit" class="btn btn-warning">Warning</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!--user-profile-info-->
+                <div class="user-profile-info">
+                    <div class="card" style="width: 18rem;">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Username: <span id="profile-username-1"></span></li>
+                            <li class="list-group-item">Email: <span id="profile-email"></span></li>
+                            <li class="list-group-item">Password: <span id="profile-password"></li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+                <!--signout-->
+                <div class="card" style="width: 18rem;">
+                    <div class="btn btn-primary" type=button id="signout-button">Sign Out - Save Changes</div>
+                </div>
+            </div>
+            <!--user-profile-setting-container-->
+            <div class="profile-setting-container">
+                <!--Update Username-->
+                <div class="card" style="width: 18rem;">
+                    <div class="btn btn-primary">Change your username.</div>
+                    <br>
+                    <form>
+                        <div>
+                            <input type="text" class="input-group mb-3" name="update-username" id="update-username"
+                                placeholder="new username" required>
+                        </div>
+                        <div>
+                            <n class="btn btn-success" href="#" type=button role="button" id="update-username-button"
+                                required>Commit change</a>
+                        </div>
+                    </form>
+                    <br>
+                </div>
+                <br>
+                <!--Update Email-->
+                <div class="card" style="width: 18rem;">
+                    <div class="btn btn-primary">Update you email.</div>
+                    <br>
+                    <form>
+                        <div>
+                            <input type="text" class="input-group mb-3" name="update-email" id="update-email"
+                                placeholder="new email" required>
+                        </div>
+                        <div>
+                            <a class="btn btn-success" href="#" type=button role="button" id="update-email-button"
+                                required>Commit change</a>
+                        </div>
+                    </form>
+                    <br>
+                </div>
+                <br>
+                <!--Update Password-->
+                <div class="card" style="width: 18rem;">
+                    <div class="btn btn-primary">Change you password.</div>
+                    <br>
+                    <form>
+                        <div>
+                            <input type="text" class="input-group mb-3" name="update-password" id="update-password"
+                                placeholder="new password" required>
+                        </div>
+                        <div>
+                            <a class="btn btn-success" href="#" type=button role="button" id="update-password-button"
+                                required>Commit change</a>
+                        </div>
+                    </form>
+                    <br>
+                </div>
+                <br>
+                <!--Delete Account-->
+                <div class="card" style="width: 18rem;">
+                    <div class="btn btn-danger" type=button id="delete-button">Delete Account</div>
+                </div>
+            </div>
+            <div class="developer">
+                <!--user-profile-card-->
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img class="card-img-top" src="html-img/framework.jpg" alt="Card image cap"
+                            id="developer-image">
+                        <h5 class="card-title"><span id="developer-image">A message from the developer..</span></h5>
+                        <p class="card-subtitle mb-2 text-muted">"Great job on creating your account! This client-server
+                            user-account-interface-service was developed using HTML, JavaScript, CSS, BootStrap,
+                            Node.JS, and JQuery. It communicates with a Node.js server to illustrate REST services using
+                            an API that I created. If you'd like to see your changes in real-time, you can make changes
+                            to the browser."</p>
+                        <p class="card-subtitle mb-2 text-muted"> - Veasna Bun</p>
+                    </div>
+                </div>
+            </div>
+            <!--alert#2-->
+            <div>
+                <div class="alert alert-danger" role="alert" id="alert-fail-2">
+                    Fali: something went wrong...
+                </div>
+                <div class="alert alert-success" role="alert" id="alert-success-2">
+                    Successfully creating account.
+                </div>
+                <div class="alert alert-warning" role="alert" id="alert-warning-2" >
+                    Warning
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- created by -->
+    <div class="created">{Rest-Sevices: connection-status}</div>
+    <!-- personal jQuery -->
+    <script src="script.js"></script>
+</body>
+
+</html>

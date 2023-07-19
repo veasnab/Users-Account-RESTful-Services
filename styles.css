@@ -1,0 +1,155 @@
+/* Veasna Bun */
+/* web-title_login-container_signup-model-container */
+.web-title_login-container_signup-model-container{
+  display: block;
+}
+/* web-title_login-container */
+/* user-profile-container*/
+.web-title_login-container{ 
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 65vh;
+    background-color: #f0f2f5;
+}
+.created {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f2f5;
+    padding-bottom: 100px;
+}
+/* web-title styling */
+.web-title {
+    font-family: Helvetica, Arial, sans-serif;
+    font-family: cursive;
+    width: 500px;
+    padding: 100px;
+}
+.web-title h1 {
+    color: #007bff;
+}
+.web-title span {
+    color: #007bff;
+}
+.web-title h4 {
+    text-align: right;
+}
+
+/* login-container styling */
+.login-container {
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 50px 28px;
+    width: 396px;
+}
+
+/* signup-model-container styles */
+.signup-model-container {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.5);
+    
+  }
+  /* Modal Content */
+  .signup-model-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 50px;
+    border: 1px solid #888;
+    width: 400px;
+    height: 450px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1); 
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+  }
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  /* alert  */
+  #alert-success, #alert-fail, #alert-success-1, #alert-fail-1, #alert-success-2, #alert-fail-2, #alert-warning-2{
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+/*user-profile-container*/
+.user-profile-container{
+  background-color: #f0f2f5;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 640px;
+  height: 70vh;
+}
+/*user-nav #user-nav-bar*/
+.user-nav #user-nav-bar {
+  height: 100px;
+  color: white;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*.user-profile-card-container*/
+.profile-setting-container{
+  padding: 50px;
+}
+/*input box width*/
+#update-username, #update-email, #update-password {
+  width: 75%;
+  margin-left: 10%;
+} 
+/*profile-image*/
+#profile-image {
+  width: 150px;
+  height: 145px;
+  border-radius: 50%;
+  border: 2px solid #000000;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+/* user-nav_user-profile-container  */
+.user-nav_user-profile-container{
+  display: none;
+}
+
+
+  
+

@@ -5,7 +5,7 @@ Clone the repository from GitHub: https://github.com/veasnab/tcc460.git
 Project Repository Web Address: https://github.com/veasnab/tcc460/tree/main
 
 
-## Project Description:
+Project Description:
 
 This project is a client-server web application that demonstrates the use of RESTful services through a custom user-account-interface-service API. 
 The application was developed using HTML, JavaScript, CSS, Bootstrap, Node.js, and jQuery. The application allows users to create an account, log in, 
@@ -13,7 +13,7 @@ and perform various actions such as updating their profile user icon, and changi
 updates using websockets, allowing users to see changes to the application in real-time. The purpose of this project is to showcase the use of RESTful 
 services in a real-world application and to demonstrate the use of websockets for real-time updates.
 	
-## Instructions for Running Frontend and Backend (Locally on Window Visual Studio):
+Instructions for Running Frontend and Backend (Locally on Window Visual Studio):
 	
 1. 
 Download the folder: "veasanb-a3" or clone it from github.

@@ -2,9 +2,9 @@
 
 Author: Veasna Bun
 
-Clone the repository from GitHub: https://github.com/veasnab/tcc460.git
+Clone the repository from GitHub: `git clone https://github.com/veasnab/User-Account-Interface-RESTful-Services.git`
 
-Project Repository Web Address: `git clone https://github.com/veasnab/User-Account-Interface-RESTful-Services.git`
+Project Repository Web Address: https://github.com/veasnab/User-Account-Interface-RESTful-Services/tree/main
 
 ## Project Description:
 

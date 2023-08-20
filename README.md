@@ -1,11 +1,10 @@
 # User Account Interface RESTful Services
-
-Author: Veasna Bun
-Clone the repository from GitHub: `git clone https://github.com/veasnab/User-Account-Interface-RESTful-Services.git`
-Project Repository Web Address: https://github.com/veasnab/User-Account-Interface-RESTful-Services/tree/main
+- Author: Veasna Bun
+- Clone the repository from GitHub: `git clone https://github.com/veasnab/User-Account-Interface-RESTful-Services.git`
+- Project Repository Web Address: https://github.com/veasnab/User-Account-Interface-RESTful-Services/tree/main
 
 ## Project Description:
-This project is a client-server web application that demonstrates the use of RESTful services through a custom user-account-interface-service API. 
+This project is a client-server web application that demonstrates the use of RESTful services through a custom user-account-interface-service API.
 The application was developed using HTML, JavaScript, CSS, Bootstrap, Node.js, and jQuery. The application allows users to create an account, log in, 
 and perform various actions such as updating their profile user icon, and changing and updating profile setting. The application also features real-time 
 updates using websockets, allowing users to see changes to the application in real-time. The purpose of this project is to showcase the use of RESTful 

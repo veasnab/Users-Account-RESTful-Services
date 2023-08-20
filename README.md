@@ -1,7 +1,7 @@
 # User Account Interface RESTful Services
-/n Author: Veasna Bun
-/n Clone the repository from GitHub: `git clone https://github.com/veasnab/User-Account-Interface-RESTful-Services.git`
-/n Project Repository Web Address: https://github.com/veasnab/User-Account-Interface-RESTful-Services/tree/main
+- Author: Veasna Bun
+- Clone the repository from GitHub: `git clone https://github.com/veasnab/User-Account-Interface-RESTful-Services.git`
+- Project Repository Web Address: https://github.com/veasnab/User-Account-Interface-RESTful-Services/tree/main
 
 ## Freatures:
 - This project is a client-server web application that demonstrates the use of RESTful services through a custom user-account-interface-service API.

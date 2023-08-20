@@ -17,8 +17,8 @@ services in a real-world application and to demonstrate the use of websockets fo
 Locate the folder containing the files you just downloaded: Folder "veasanb-a3"; select the folder and then click the "add" button in the UI. 
 Go to the EXPLORER section on the left side of the screen in Visual studio or (short-cut: Ctrl+Shift+E). 
 In the EXPLORER UI under WORKSPACE you should now see the follow:
-- files name: A3.pdf, app.js, index.html, package-lock.json, package.json, script.css, styles.css, users.json
-- folder name: html-img, node_modules, userIcon   
+	- files name: A3.pdf, app.js, index.html, package-lock.json, package.json, script.css, styles.css, users.json
+	- folder name: html-img, node_modules, userIcon   
 3. Within Visual Studio, navigate to the "Terminal" tab, with this tab click on "New Terminal" or (short-cut: Ctrl+Shift+`). 
 In the terminal UI, ensure that the directory is within the working workspace. 
 For example: PS C:\Users\Veasna Bun\OneDrive\Desktop\veasnab-a3>, 
